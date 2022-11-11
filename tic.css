@@ -1,0 +1,123 @@
+body{
+    background-image: url("nice.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#blocker{
+    position: fixed;
+    height: 100vh;
+    width: 100vh;
+    background: transparent;
+    z-index: -2;
+}
+
+#start{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+#base{
+    margin-top: 30px;
+    width: 500px;
+    border: solid 4px black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+#row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    display: flex;
+    width: 33%;
+    height: 165px;
+}
+#c1{
+    background-position: center;
+    background-size: cover;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+#c2{
+    background-position: center;
+    background-size: cover;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+#c3{
+    background-position: center;
+    background-size: cover;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+#c4{
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+#c5{
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+#c6{
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+#c7{
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+#c8{
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+#c9{
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+@media(max-width:500px){
+    #base{
+        width: 250px;
+    }
+    .col{
+        height:90px;
+    }
+}
